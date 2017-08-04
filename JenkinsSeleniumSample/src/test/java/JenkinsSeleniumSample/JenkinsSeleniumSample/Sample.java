@@ -12,8 +12,9 @@ package JenkinsSeleniumSample.JenkinsSeleniumSample;
 			public void testEasy() {	
 				driver = new FirefoxDriver();
 				driver.get("https://www.flipkart.com");  
-				/*String title = driver.getTitle();				 
-				Assert.assertTrue(title.contains("Online Shopping India")); 	
+				String title = driver.getTitle();	
+				System.out.println(title);
+				/*Assert.assertTrue(title.contains("Online Shopping India")); 	
 				System.out.println("Test passed");
 				System.out.println("1");*/
 			}	
